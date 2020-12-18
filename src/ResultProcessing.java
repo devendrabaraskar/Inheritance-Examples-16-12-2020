@@ -18,9 +18,6 @@ public class ResultProcessing {
            s2.showMedData();
            s2.result(45);
            System.out.println("______________________________________________________________");
-           Stud s=new Stud();
-           s.setPerData(113, "CCC");
-           String res=s.toString(); //this toString method Stud class is inheriting from Object
-           System.out.println(res);
+          
     }
 }

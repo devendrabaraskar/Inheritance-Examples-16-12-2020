@@ -8,6 +8,15 @@ public class EngStud extends Stud {
     public void showEngData(){
         System.out.println(branch+","+sem);
     }
+
+    
+    public void result(int marks) {
+        if(marks>=40){
+            System.out.println("EngStud Passed...");
+        }else{
+            System.out.println("EngStud Failed...");
+        }
+    }
     
     
 }
